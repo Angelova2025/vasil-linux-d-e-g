@@ -1,0 +1,59 @@
+vboxuser@ububtu26:~/Documents$ ls
+Linux_Uroci
+vboxuser@ububtu26:~/Documents$ mkdir Uchilishten_Proekt
+vboxuser@ububtu26:~/Documents$ cd Uchilishten_Proekt
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt$ mkdir Materiali Predavane Arhiv
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt$ cd materiali
+bash: cd: materiali: No such file or directory
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt$ cd Materiali
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ plan.txt ekip.txt zadachi.txt
+plan.txt: command not found
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ touch plan.txt ekip.txt zadachi.txt
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ ls
+ekip.txt  plan.txt  zadachi.txt
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ cp plan.txt ../Predavane/ plan_final.txt
+cp: target 'plan_final.txt': No such file or directory
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ cp plan.txt ../Predavane/ plan.txt
+cp: target 'plan.txt': Not a directory
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ cp plan.txt ../Predavane/ plan_final.txt
+cp: target 'plan_final.txt': No such file or directory
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ cp plan.txt ../Predavane/plan_final.txt
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ cd ../Predavane
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Predavane$ touch proverka.txt
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Predavane$ cp plan_final ../Arhiv/
+cp: cannot stat 'plan_final': No such file or directory
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Predavane$ cp plan_final.txt ../Arhiv/
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Predavane$ cd ../Materiali
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ cp ekip.txt ../Arhiv
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ ls\
+> 
+ekip.txt  plan.txt  zadachi.txt
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ mkdir Dopalnitelno
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ cp ../Predavane/proverka.txtDopalnitelno/
+cp: missing destination file operand after '../Predavane/proverka.txtDopalnitelno/'
+Try 'cp --help' for more information.
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ cp ../Predavane/proverka.txt Dopalnitelno/
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt/Materiali$ cd ..
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt$ ls -R
+.:
+Arhiv  Materiali  Predavane
+
+./Arhiv:
+ekip.txt  plan_final.txt
+
+./Materiali:
+Dopalnitelno  ekip.txt  plan.txt  zadachi.txt
+
+./Materiali/Dopalnitelno:
+proverka.txt
+
+./Predavane:
+plan_final.txt  proverka.txt
+vboxuser@ububtu26:~/Documents/Uchilishten_Proekt$ cd ..
+vboxuser@ububtu26:~/Documents$ cd ..
+vboxuser@ububtu26:~$ cd Desktop
+vboxuser@ububtu26:~/Desktop$ touch zad2
+vboxuser@ububtu26:~/Desktop$ touch zad2.txt
+vboxuser@ububtu26:~/Desktop$ ^C
+vboxuser@ububtu26:~/Desktop$ 
+
