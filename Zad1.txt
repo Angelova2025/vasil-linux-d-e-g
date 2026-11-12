@@ -1,0 +1,41 @@
+boxuser@ububtu26:~/Documents/Linux_Uroci/Teoriq$ cp uprajnenia.txr ../Praktika/
+cp: cannot stat 'uprajnenia.txr': No such file or directory
+vboxuser@ububtu26:~/Documents/Linux_Uroci/Teoriq$ cp uprajneq.txt ../Praktika/
+cp: cannot stat 'uprajneq.txt': No such file or directory
+vboxuser@ububtu26:~/Documents/Linux_Uroci/Teoriq$ ^[[200~cp uprajneiq.txt ../Praktika/
+cp: command not found
+vboxuser@ububtu26:~/Documents/Linux_Uroci/Teoriq$ ~cp uprajnenia.txt ../Praktika/
+Command '~cp' not found, but there are 16 similar ones.
+vboxuser@ububtu26:~/Documents/Linux_Uroci/Teoriq$ cp uprajnenia.txt ../Praktika/
+vboxuser@ububtu26:~/Documents/Linux_Uroci/Teoriq$ ls
+komandi.txt  uprajnenia.txt
+vboxuser@ububtu26:~/Documents/Linux_Uroci/Teoriq$ cd Praktika
+bash: cd: Praktika: No such file or directory
+vboxuser@ububtu26:~/Documents/Linux_Uroci/Teoriq$ cd ../Praktika
+vboxuser@ububtu26:~/Documents/Linux_Uroci/Praktika$ touch otgovori.txt
+vboxuser@ububtu26:~/Documents/Linux_Uroci/Praktika$ ls
+otgovori.txt  uprajnenia.txt
+vboxuser@ububtu26:~/Documents/Linux_Uroci/Praktika$ 
+vboxuser@ububtu26:~/Documents/Linux_Uroci/Praktika$ cd..
+cd..: command not found
+vboxuser@ububtu26:~/Documents/Linux_Uroci/Praktika$ cd ..
+vboxuser@ububtu26:~/Documents/Linux_Uroci$ cd Desctop
+bash: cd: Desctop: No such file or directory
+vboxuser@ububtu26:~/Documents/Linux_Uroci$ cd Desktop
+bash: cd: Desktop: No such file or directory
+vboxuser@ububtu26:~/Documents/Linux_Uroci$ ^C
+vboxuser@ububtu26:~/Documents/Linux_Uroci$ cd Desktop
+bash: cd: Desktop: No such file or directory
+vboxuser@ububtu26:~/Documents/Linux_Uroci$ cd ..
+vboxuser@ububtu26:~/Documents$ cd Desktop
+bash: cd: Desktop: No such file or directory
+vboxuser@ububtu26:~/Documents$ cd ..
+vboxuser@ububtu26:~$ cd Desktop
+vboxuser@ububtu26:~/Desktop$ cd vasil test Linux
+bash: cd: too many arguments
+vboxuser@ububtu26:~/Desktop$ cd vasil test LINUX
+bash: cd: too many arguments
+vboxuser@ububtu26:~/Desktop$ cd VasilTestLinux
+vboxuser@ububtu26:~/Desktop/VasilTestLinux$ 
+
+
